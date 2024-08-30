@@ -1,0 +1,17 @@
+﻿@model POE_CLDV_6221_ST10224391.Models.ImageUploadModel
+
+<form asp-action="UploadImage" method="post" enctype="multipart/form-data">
+    <div>
+        <label for="imageFile">Upload Image:</label>
+        <input type="file" name="ImageFile" id="imageFile" />
+    </div>
+    <button type="submit">Upload Image</button>
+</form>
+
+<form asp-action="UploadFile" method="post" enctype="multipart/form-data">
+    <div>
+        <label for="file">Upload File:</label>
+        <input type="file" name="File" id="file" />
+    </div>
+    <button type="submit">Upload File</button>
+</form>

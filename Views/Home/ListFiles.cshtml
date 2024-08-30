@@ -1,0 +1,9 @@
+﻿@model IEnumerable<string>
+
+<h2>Uploaded Files</h2>
+<ul>
+    @foreach (var file in Model)
+    {
+        <li>@file</li>
+    }
+</ul>

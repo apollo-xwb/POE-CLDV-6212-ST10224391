@@ -1,0 +1,9 @@
+﻿@model IEnumerable<POE_CLDV_6221_ST10224391.Models.CustomerProfile>
+
+<h2>Customer Profiles</h2>
+<ul>
+    @foreach (var profile in Model)
+    {
+        <li>@profile.FirstName @profile.LastName - @profile.Email</li>
+    }
+</ul>

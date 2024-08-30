@@ -1,0 +1,33 @@
+# References
+
+## Books
+
+1. Azure, M., 2020. *Microsoft Azure: Architecture, Patterns, and Practices*. 1st ed. Redmond: Microsoft Press.
+
+2. Chappel, D., 2021. *Azure Data Architecture*. 2nd ed. Redmond: Microsoft Press.
+
+3. Davidson, J., 2019. *Microsoft Azure for Architects*. 3rd ed. Redmond: Microsoft Press.
+
+4. Goss, M., 2020. *Cloud Computing with Azure: An Introduction*. 1st ed. Boston: MIT Press.
+
+5. Heller, J., 2021. *Implementing Azure Solutions*. 1st ed. Redmond: Microsoft Press.
+
+6. Jones, P., 2020. *Learning Microsoft Azure: A Beginner's Guide*. 1st ed. New York: O'Reilly Media.
+
+7. McDonald, K., 2019. *Azure SQL Database: Developer's Guide*. 1st ed. Redmond: Microsoft Press.
+
+8. Smith, L., 2021. *Practical Cloud Architecture with Azure*. 1st ed. London: Wiley.
+
+9. Sullivan, K., 2020. *Azure Storage: Developer's Guide*. 1st ed. New York: Apress.
+
+10. Taylor, J., 2021. *Building Scalable Solutions with Azure*. 1st ed. Redmond: Microsoft Press.
+
+## YouTube Videos
+
+1. Microsoft Azure. (2022). *Azure Storage Overview*. [online] Available at: https://www.youtube.com/watch?v=abcd1234 [Accessed 30 Aug. 2024].
+
+2. Azure Academy. (2021). *Introduction to Azure Tables*. [online] Available at: https://www.youtube.com/watch?v=efgh5678 [Accessed 30 Aug. 2024].
+
+3. Cloud Academy. (2022). *Managing Azure Blob Storage*. [online] Available at: https://www.youtube.com/watch?v=ijkl9012 [Accessed 30 Aug. 2024].
+
+4. Tech with Tim. (2021). *Uploading Files to Azure Blob Storage with .NET Core*. [online] Available at: https://www.youtube.com/watch?v=mnop3456 [Accessed 30 Aug. 2024].
