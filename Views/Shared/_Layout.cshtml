@@ -12,6 +12,7 @@
             <ul>
                 <li><a asp-controller="Home" asp-action="Index">Home</a></li>
                 <li><a asp-controller="Home" asp-action="Upload">Upload</a></li>
+                <li><a asp-controller="Home" asp-action="CreateCustomerProfile">Create Customer Profile</a></li>
             </ul>
         </nav>
     </header>
@@ -21,5 +22,8 @@
     <footer>
         <p>&copy; 2024 - ABC Retail</p>
     </footer>
+
+    <!-- Render scripts section -->
+    @RenderSection("Scripts", required: false)
 </body>
 </html>

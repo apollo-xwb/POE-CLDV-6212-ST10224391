@@ -1,0 +1,450 @@
+Folder PATH listing
+Volume serial number is E2D1-5F20
+C:.
+¦   .gitattributes
+¦   .gitignore
+¦   ABC_Retail_WebApp.csproj
+¦   appsettings.Development.json
+¦   appsettings.json
+¦   POE CLDV 6221 ST10224391.csproj
+¦   POE CLDV 6221 ST10224391.csproj.user
+¦   POE CLDV 6221 ST10224391.sln
+¦   Program.cs
+¦   project-structure.txt
+¦   References.txt
+¦   Startup.cs
+¦   
++---.github
+¦   +---workflows
++---bin
+¦   +---Debug
+¦   ¦   +---net8.0
+¦   ¦       ¦   appsettings.Development.json
+¦   ¦       ¦   appsettings.json
+¦   ¦       ¦   Azure.Core.dll
+¦   ¦       ¦   Azure.Storage.Blobs.dll
+¦   ¦       ¦   Azure.Storage.Common.dll
+¦   ¦       ¦   Azure.Storage.Files.Shares.dll
+¦   ¦       ¦   Azure.Storage.Queues.dll
+¦   ¦       ¦   Microsoft.Azure.Cosmos.Table.dll
+¦   ¦       ¦   Microsoft.Azure.DocumentDB.Core.dll
+¦   ¦       ¦   Microsoft.Bcl.AsyncInterfaces.dll
+¦   ¦       ¦   Microsoft.OData.Core.dll
+¦   ¦       ¦   Microsoft.OData.Edm.dll
+¦   ¦       ¦   Microsoft.Spatial.dll
+¦   ¦       ¦   Newtonsoft.Json.dll
+¦   ¦       ¦   POE CLDV 6221 ST10224391.deps.json
+¦   ¦       ¦   POE CLDV 6221 ST10224391.dll
+¦   ¦       ¦   POE CLDV 6221 ST10224391.exe
+¦   ¦       ¦   POE CLDV 6221 ST10224391.pdb
+¦   ¦       ¦   POE CLDV 6221 ST10224391.runtimeconfig.json
+¦   ¦       ¦   POE CLDV 6221 ST10224391.staticwebassets.runtime.json
+¦   ¦       ¦   System.ClientModel.dll
+¦   ¦       ¦   System.IO.Hashing.dll
+¦   ¦       ¦   System.Memory.Data.dll
+¦   ¦       ¦   
+¦   ¦       +---runtimes
+¦   ¦           +---win7-x64
+¦   ¦               +---native
+¦   ¦                       Cosmos.CRTCompat.dll
+¦   ¦                       Microsoft.Azure.Documents.ServiceInterop.dll
+¦   ¦                       
+¦   +---Release
+¦       +---net8.0
+¦           ¦   appsettings.Development.json
+¦           ¦   appsettings.json
+¦           ¦   Azure.Core.dll
+¦           ¦   Azure.Storage.Blobs.dll
+¦           ¦   Azure.Storage.Common.dll
+¦           ¦   Azure.Storage.Files.Shares.dll
+¦           ¦   Azure.Storage.Queues.dll
+¦           ¦   Microsoft.Azure.Cosmos.Table.dll
+¦           ¦   Microsoft.Azure.DocumentDB.Core.dll
+¦           ¦   Microsoft.Bcl.AsyncInterfaces.dll
+¦           ¦   Microsoft.OData.Core.dll
+¦           ¦   Microsoft.OData.Edm.dll
+¦           ¦   Microsoft.Spatial.dll
+¦           ¦   Newtonsoft.Json.dll
+¦           ¦   POE CLDV 6221 ST10224391.deps.json
+¦           ¦   POE CLDV 6221 ST10224391.dll
+¦           ¦   POE CLDV 6221 ST10224391.exe
+¦           ¦   POE CLDV 6221 ST10224391.pdb
+¦           ¦   POE CLDV 6221 ST10224391.runtimeconfig.json
+¦           ¦   POE CLDV 6221 ST10224391.staticwebassets.runtime.json
+¦           ¦   System.ClientModel.dll
+¦           ¦   System.IO.Hashing.dll
+¦           ¦   System.Memory.Data.dll
+¦           ¦   
+¦           +---runtimes
+¦               +---win7-x64
+¦                   +---native
+¦                           Cosmos.CRTCompat.dll
+¦                           Microsoft.Azure.Documents.ServiceInterop.dll
+¦                           
++---Controllers
+¦       HomeController.cs
+¦       
++---Models
+¦       CustomerProfile.cs
+¦       FileUploadModel.cs
+¦       ImageUploadModel.cs
+¦       Inventory.cs
+¦       Order.cs
+¦       Product.cs
+¦       
++---obj
+¦   ¦   POE CLDV 6221 ST10224391.csproj.nuget.dgspec.json
+¦   ¦   POE CLDV 6221 ST10224391.csproj.nuget.g.props
+¦   ¦   POE CLDV 6221 ST10224391.csproj.nuget.g.targets
+¦   ¦   project.assets.json
+¦   ¦   project.nuget.cache
+¦   ¦   
+¦   +---Debug
+¦   ¦   +---net8.0
+¦   ¦       ¦   .NETCoreApp,Version=v8.0.AssemblyAttributes.cs
+¦   ¦       ¦   apphost.exe
+¦   ¦       ¦   POE CLDV 6221 ST10224391.AssemblyInfo.cs
+¦   ¦       ¦   POE CLDV 6221 ST10224391.AssemblyInfoInputs.cache
+¦   ¦       ¦   POE CLDV 6221 ST10224391.assets.cache
+¦   ¦       ¦   POE CLDV 6221 ST10224391.csproj.AssemblyReference.cache
+¦   ¦       ¦   POE CLDV 6221 ST10224391.csproj.BuildWithSkipAnalyzers
+¦   ¦       ¦   POE CLDV 6221 ST10224391.csproj.CoreCompileInputs.cache
+¦   ¦       ¦   POE CLDV 6221 ST10224391.csproj.FileListAbsolute.txt
+¦   ¦       ¦   POE CLDV 6221 ST10224391.dll
+¦   ¦       ¦   POE CLDV 6221 ST10224391.GeneratedMSBuildEditorConfig.editorconfig
+¦   ¦       ¦   POE CLDV 6221 ST10224391.genruntimeconfig.cache
+¦   ¦       ¦   POE CLDV 6221 ST10224391.GlobalUsings.g.cs
+¦   ¦       ¦   POE CLDV 6221 ST10224391.MvcApplicationPartsAssemblyInfo.cache
+¦   ¦       ¦   POE CLDV 6221 ST10224391.pdb
+¦   ¦       ¦   POE CLDV 6221 ST10224391.RazorAssemblyInfo.cache
+¦   ¦       ¦   POE CLDV 6221 ST10224391.RazorAssemblyInfo.cs
+¦   ¦       ¦   POE CLDV 6221 ST10224391.sourcelink.json
+¦   ¦       ¦   POE CLDV.5F8C82BA.Up2Date
+¦   ¦       ¦   project.razor.vs.bin
+¦   ¦       ¦   staticwebassets.build.json
+¦   ¦       ¦   staticwebassets.development.json
+¦   ¦       ¦   staticwebassets.pack.json
+¦   ¦       ¦   
+¦   ¦       +---ref
+¦   ¦       ¦       POE CLDV 6221 ST10224391.dll
+¦   ¦       ¦       
+¦   ¦       +---refint
+¦   ¦       ¦       POE CLDV 6221 ST10224391.dll
+¦   ¦       ¦       
+¦   ¦       +---scopedcss
+¦   ¦       ¦   +---bundle
+¦   ¦       ¦   ¦       POE CLDV 6221 ST10224391.styles.css
+¦   ¦       ¦   ¦       
+¦   ¦       ¦   +---projectbundle
+¦   ¦       ¦   ¦       POE CLDV 6221 ST10224391.bundle.scp.css
+¦   ¦       ¦   ¦       
+¦   ¦       ¦   +---Views
+¦   ¦       ¦       +---Shared
+¦   ¦       ¦               _Layout.cshtml.rz.scp.css
+¦   ¦       ¦               
+¦   ¦       +---staticwebassets
+¦   ¦               msbuild.build.POE CLDV 6221 ST10224391.props
+¦   ¦               msbuild.buildMultiTargeting.POE CLDV 6221 ST10224391.props
+¦   ¦               msbuild.buildTransitive.POE CLDV 6221 ST10224391.props
+¦   ¦               msbuild.POE CLDV 6221 ST10224391.Microsoft.AspNetCore.StaticWebAssets.props
+¦   ¦               
+¦   +---Release
+¦       +---net8.0
+¦           ¦   .NETCoreApp,Version=v8.0.AssemblyAttributes.cs
+¦           ¦   apphost.exe
+¦           ¦   POE CLDV 6221 ST10224391.AssemblyInfo.cs
+¦           ¦   POE CLDV 6221 ST10224391.AssemblyInfoInputs.cache
+¦           ¦   POE CLDV 6221 ST10224391.assets.cache
+¦           ¦   POE CLDV 6221 ST10224391.csproj.AssemblyReference.cache
+¦           ¦   POE CLDV 6221 ST10224391.csproj.CoreCompileInputs.cache
+¦           ¦   POE CLDV 6221 ST10224391.csproj.FileListAbsolute.txt
+¦           ¦   POE CLDV 6221 ST10224391.dll
+¦           ¦   POE CLDV 6221 ST10224391.GeneratedMSBuildEditorConfig.editorconfig
+¦           ¦   POE CLDV 6221 ST10224391.genruntimeconfig.cache
+¦           ¦   POE CLDV 6221 ST10224391.GlobalUsings.g.cs
+¦           ¦   POE CLDV 6221 ST10224391.MvcApplicationPartsAssemblyInfo.cache
+¦           ¦   POE CLDV 6221 ST10224391.pdb
+¦           ¦   POE CLDV 6221 ST10224391.RazorAssemblyInfo.cache
+¦           ¦   POE CLDV 6221 ST10224391.RazorAssemblyInfo.cs
+¦           ¦   POE CLDV 6221 ST10224391.sourcelink.json
+¦           ¦   POE CLDV.5F8C82BA.Up2Date
+¦           ¦   project.razor.vs.bin
+¦           ¦   PublishOutputs.b2241f0e97.txt
+¦           ¦   staticwebassets.build.json
+¦           ¦   staticwebassets.development.json
+¦           ¦   staticwebassets.pack.json
+¦           ¦   staticwebassets.publish.json
+¦           ¦   
+¦           +---PubTmp
+¦           ¦   ¦   POE CLDV 6221 ST10224391.Parameters.xml
+¦           ¦   ¦   POE CLDV 6221 ST10224391.SourceManifest.xml
+¦           ¦   ¦   
+¦           ¦   +---Out
+¦           ¦       ¦   appsettings.Development.json
+¦           ¦       ¦   appsettings.json
+¦           ¦       ¦   Azure.Core.dll
+¦           ¦       ¦   Azure.Storage.Blobs.dll
+¦           ¦       ¦   Azure.Storage.Common.dll
+¦           ¦       ¦   Azure.Storage.Files.Shares.dll
+¦           ¦       ¦   Azure.Storage.Queues.dll
+¦           ¦       ¦   Microsoft.Azure.Cosmos.Table.dll
+¦           ¦       ¦   Microsoft.Azure.DocumentDB.Core.dll
+¦           ¦       ¦   Microsoft.Bcl.AsyncInterfaces.dll
+¦           ¦       ¦   Microsoft.OData.Core.dll
+¦           ¦       ¦   Microsoft.OData.Edm.dll
+¦           ¦       ¦   Microsoft.Spatial.dll
+¦           ¦       ¦   Newtonsoft.Json.dll
+¦           ¦       ¦   POE CLDV 6221 ST10224391.deps.json
+¦           ¦       ¦   POE CLDV 6221 ST10224391.dll
+¦           ¦       ¦   POE CLDV 6221 ST10224391.exe
+¦           ¦       ¦   POE CLDV 6221 ST10224391.pdb
+¦           ¦       ¦   POE CLDV 6221 ST10224391.runtimeconfig.json
+¦           ¦       ¦   System.ClientModel.dll
+¦           ¦       ¦   System.IO.Hashing.dll
+¦           ¦       ¦   System.Memory.Data.dll
+¦           ¦       ¦   web.config
+¦           ¦       ¦   
+¦           ¦       +---runtimes
+¦           ¦       ¦   +---win7-x64
+¦           ¦       ¦       +---native
+¦           ¦       ¦               Cosmos.CRTCompat.dll
+¦           ¦       ¦               Microsoft.Azure.Documents.ServiceInterop.dll
+¦           ¦       ¦               
+¦           ¦       +---wwwroot
+¦           ¦           ¦   favicon.ico
+¦           ¦           ¦   POE CLDV 6221 ST10224391.styles.css
+¦           ¦           ¦   
+¦           ¦           +---css
+¦           ¦           ¦       site.css
+¦           ¦           ¦       
+¦           ¦           +---js
+¦           ¦           ¦       site.js
+¦           ¦           ¦       
+¦           ¦           +---lib
+¦           ¦               +---bootstrap
+¦           ¦               ¦   ¦   LICENSE
+¦           ¦               ¦   ¦   
+¦           ¦               ¦   +---dist
+¦           ¦               ¦       +---css
+¦           ¦               ¦       ¦       bootstrap-grid.css
+¦           ¦               ¦       ¦       bootstrap-grid.css.map
+¦           ¦               ¦       ¦       bootstrap-grid.min.css
+¦           ¦               ¦       ¦       bootstrap-grid.min.css.map
+¦           ¦               ¦       ¦       bootstrap-grid.rtl.css
+¦           ¦               ¦       ¦       bootstrap-grid.rtl.css.map
+¦           ¦               ¦       ¦       bootstrap-grid.rtl.min.css
+¦           ¦               ¦       ¦       bootstrap-grid.rtl.min.css.map
+¦           ¦               ¦       ¦       bootstrap-reboot.css
+¦           ¦               ¦       ¦       bootstrap-reboot.css.map
+¦           ¦               ¦       ¦       bootstrap-reboot.min.css
+¦           ¦               ¦       ¦       bootstrap-reboot.min.css.map
+¦           ¦               ¦       ¦       bootstrap-reboot.rtl.css
+¦           ¦               ¦       ¦       bootstrap-reboot.rtl.css.map
+¦           ¦               ¦       ¦       bootstrap-reboot.rtl.min.css
+¦           ¦               ¦       ¦       bootstrap-reboot.rtl.min.css.map
+¦           ¦               ¦       ¦       bootstrap-utilities.css
+¦           ¦               ¦       ¦       bootstrap-utilities.css.map
+¦           ¦               ¦       ¦       bootstrap-utilities.min.css
+¦           ¦               ¦       ¦       bootstrap-utilities.min.css.map
+¦           ¦               ¦       ¦       bootstrap-utilities.rtl.css
+¦           ¦               ¦       ¦       bootstrap-utilities.rtl.css.map
+¦           ¦               ¦       ¦       bootstrap-utilities.rtl.min.css
+¦           ¦               ¦       ¦       bootstrap-utilities.rtl.min.css.map
+¦           ¦               ¦       ¦       bootstrap.css
+¦           ¦               ¦       ¦       bootstrap.css.map
+¦           ¦               ¦       ¦       bootstrap.min.css
+¦           ¦               ¦       ¦       bootstrap.min.css.map
+¦           ¦               ¦       ¦       bootstrap.rtl.css
+¦           ¦               ¦       ¦       bootstrap.rtl.css.map
+¦           ¦               ¦       ¦       bootstrap.rtl.min.css
+¦           ¦               ¦       ¦       bootstrap.rtl.min.css.map
+¦           ¦               ¦       ¦       
+¦           ¦               ¦       +---js
+¦           ¦               ¦               bootstrap.bundle.js
+¦           ¦               ¦               bootstrap.bundle.js.map
+¦           ¦               ¦               bootstrap.bundle.min.js
+¦           ¦               ¦               bootstrap.bundle.min.js.map
+¦           ¦               ¦               bootstrap.esm.js
+¦           ¦               ¦               bootstrap.esm.js.map
+¦           ¦               ¦               bootstrap.esm.min.js
+¦           ¦               ¦               bootstrap.esm.min.js.map
+¦           ¦               ¦               bootstrap.js
+¦           ¦               ¦               bootstrap.js.map
+¦           ¦               ¦               bootstrap.min.js
+¦           ¦               ¦               bootstrap.min.js.map
+¦           ¦               ¦               
+¦           ¦               +---jquery
+¦           ¦               ¦   ¦   LICENSE.txt
+¦           ¦               ¦   ¦   
+¦           ¦               ¦   +---dist
+¦           ¦               ¦           jquery.js
+¦           ¦               ¦           jquery.min.js
+¦           ¦               ¦           jquery.min.map
+¦           ¦               ¦           
+¦           ¦               +---jquery-validation
+¦           ¦               ¦   ¦   LICENSE.md
+¦           ¦               ¦   ¦   
+¦           ¦               ¦   +---dist
+¦           ¦               ¦           additional-methods.js
+¦           ¦               ¦           additional-methods.min.js
+¦           ¦               ¦           jquery.validate.js
+¦           ¦               ¦           jquery.validate.min.js
+¦           ¦               ¦           
+¦           ¦               +---jquery-validation-unobtrusive
+¦           ¦                       jquery.validate.unobtrusive.js
+¦           ¦                       jquery.validate.unobtrusive.min.js
+¦           ¦                       LICENSE.txt
+¦           ¦                       
+¦           +---ref
+¦           ¦       POE CLDV 6221 ST10224391.dll
+¦           ¦       
+¦           +---refint
+¦           ¦       POE CLDV 6221 ST10224391.dll
+¦           ¦       
+¦           +---scopedcss
+¦           ¦   +---bundle
+¦           ¦   ¦       POE CLDV 6221 ST10224391.styles.css
+¦           ¦   ¦       
+¦           ¦   +---projectbundle
+¦           ¦   ¦       POE CLDV 6221 ST10224391.bundle.scp.css
+¦           ¦   ¦       
+¦           ¦   +---Views
+¦           ¦       +---Shared
+¦           ¦               _Layout.cshtml.rz.scp.css
+¦           ¦               
+¦           +---staticwebassets
+¦                   msbuild.build.POE CLDV 6221 ST10224391.props
+¦                   msbuild.buildMultiTargeting.POE CLDV 6221 ST10224391.props
+¦                   msbuild.buildTransitive.POE CLDV 6221 ST10224391.props
+¦                   msbuild.POE CLDV 6221 ST10224391.Microsoft.AspNetCore.StaticWebAssets.props
+¦                   
++---Properties
+¦   ¦   launchSettings.json
+¦   ¦   
+¦   +---PublishProfiles
+¦   ¦       POECLDV6221ST10224391 - Web Deploy.pubxml
+¦   ¦       POECLDV6221ST10224391 - Web Deploy.pubxml.user
+¦   ¦       
+¦   +---ServiceDependencies
+¦       +---POECLDV6221ST10224391 - Web Deploy
+¦               profile.arm.json
+¦               
++---Services
+¦       AzureBlobStorageService.cs
+¦       AzureFileStorageService.cs
+¦       AzureQueueStorageService.cs
+¦       AzureTableStorageService.cs
+¦       
++---Views
+¦   ¦   Privacy.cshtml
+¦   ¦   Privacy.cshtml.cs
+¦   ¦   _ViewImports.cshtml
+¦   ¦   _ViewStart.cshtml
+¦   ¦   
+¦   +---Home
+¦   ¦       Index.cshtml
+¦   ¦       Index.cshtml.cs
+¦   ¦       ListCustomerProfiles.cshtml
+¦   ¦       ListCustomerProfiles.cshtml.cs
+¦   ¦       ListFiles.cshtml
+¦   ¦       ListFiles.cshtml.cs
+¦   ¦       ListImages.cshtml
+¦   ¦       ListImages.cshtml.cs
+¦   ¦       ListMessages.cshtml
+¦   ¦       ListMessages.cshtml.cs
+¦   ¦       Upload.cshtml
+¦   ¦       Upload.cshtml.cs
+¦   ¦       
+¦   +---Shared
+¦           _Layout.cshtml
+¦           _Layout.cshtml.css
+¦           _ValidationScriptsPartial.cshtml
+¦           _ViewImports.cshtml
+¦           _ViewImports.cshtml.cs
+¦           _ViewStart.cshtml
+¦           _ViewStart.cshtml.cs
+¦           
++---wwwroot
+    ¦   favicon.ico
+    ¦   
+    +---css
+    ¦       site.css
+    ¦       
+    +---js
+    ¦       site.js
+    ¦       
+    +---lib
+        +---bootstrap
+        ¦   ¦   LICENSE
+        ¦   ¦   
+        ¦   +---dist
+        ¦       +---css
+        ¦       ¦       bootstrap-grid.css
+        ¦       ¦       bootstrap-grid.css.map
+        ¦       ¦       bootstrap-grid.min.css
+        ¦       ¦       bootstrap-grid.min.css.map
+        ¦       ¦       bootstrap-grid.rtl.css
+        ¦       ¦       bootstrap-grid.rtl.css.map
+        ¦       ¦       bootstrap-grid.rtl.min.css
+        ¦       ¦       bootstrap-grid.rtl.min.css.map
+        ¦       ¦       bootstrap-reboot.css
+        ¦       ¦       bootstrap-reboot.css.map
+        ¦       ¦       bootstrap-reboot.min.css
+        ¦       ¦       bootstrap-reboot.min.css.map
+        ¦       ¦       bootstrap-reboot.rtl.css
+        ¦       ¦       bootstrap-reboot.rtl.css.map
+        ¦       ¦       bootstrap-reboot.rtl.min.css
+        ¦       ¦       bootstrap-reboot.rtl.min.css.map
+        ¦       ¦       bootstrap-utilities.css
+        ¦       ¦       bootstrap-utilities.css.map
+        ¦       ¦       bootstrap-utilities.min.css
+        ¦       ¦       bootstrap-utilities.min.css.map
+        ¦       ¦       bootstrap-utilities.rtl.css
+        ¦       ¦       bootstrap-utilities.rtl.css.map
+        ¦       ¦       bootstrap-utilities.rtl.min.css
+        ¦       ¦       bootstrap-utilities.rtl.min.css.map
+        ¦       ¦       bootstrap.css
+        ¦       ¦       bootstrap.css.map
+        ¦       ¦       bootstrap.min.css
+        ¦       ¦       bootstrap.min.css.map
+        ¦       ¦       bootstrap.rtl.css
+        ¦       ¦       bootstrap.rtl.css.map
+        ¦       ¦       bootstrap.rtl.min.css
+        ¦       ¦       bootstrap.rtl.min.css.map
+        ¦       ¦       
+        ¦       +---js
+        ¦               bootstrap.bundle.js
+        ¦               bootstrap.bundle.js.map
+        ¦               bootstrap.bundle.min.js
+        ¦               bootstrap.bundle.min.js.map
+        ¦               bootstrap.esm.js
+        ¦               bootstrap.esm.js.map
+        ¦               bootstrap.esm.min.js
+        ¦               bootstrap.esm.min.js.map
+        ¦               bootstrap.js
+        ¦               bootstrap.js.map
+        ¦               bootstrap.min.js
+        ¦               bootstrap.min.js.map
+        ¦               
+        +---jquery
+        ¦   ¦   LICENSE.txt
+        ¦   ¦   
+        ¦   +---dist
+        ¦           jquery.js
+        ¦           jquery.min.js
+        ¦           jquery.min.map
+        ¦           
+        +---jquery-validation
+        ¦   ¦   LICENSE.md
+        ¦   ¦   
+        ¦   +---dist
+        ¦           additional-methods.js
+        ¦           additional-methods.min.js
+        ¦           jquery.validate.js
+        ¦           jquery.validate.min.js
+        ¦           
+        +---jquery-validation-unobtrusive
+                jquery.validate.unobtrusive.js
+                jquery.validate.unobtrusive.min.js
+                LICENSE.txt
+                
