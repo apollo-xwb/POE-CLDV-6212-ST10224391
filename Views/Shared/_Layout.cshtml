@@ -1,33 +1,96 @@
 ﻿<!DOCTYPE html>
-<html>
+<html lang="en">
 <head>
     <meta charset="utf-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>@ViewData["Title"] - ABC Retail</title>
     <link rel="stylesheet" href="~/css/site.css" />
+    <!-- Add any additional CSS for styling improvements -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css" />
+    <style>
+        /* Button Style */
+        .btn {
+            display: inline-block;
+            padding: 10px 20px;
+            margin: 5px;
+            font-size: 16px;
+            font-weight: bold;
+            text-align: center;
+            background-color: #007bff;
+            color: white;
+            border-radius: 5px;
+            text-decoration: none;
+            transition: background-color 0.3s;
+        }
+
+        .btn:hover {
+            background-color: #0056b3;
+        }
+
+        .navbar-links li {
+            display: inline;
+        }
+
+        .footer {
+            background-color: #f8f9fa;
+            padding: 20px;
+            text-align: center;
+        }
+
+        .footer-content {
+            max-width: 1200px;
+            margin: 0 auto;
+        }
+
+        .footer-links a {
+            text-decoration: none;
+            color: #007bff;
+        }
+
+        .footer-links a:hover {
+            color: #0056b3;
+        }
+    </style>
 </head>
 <body>
+    <!-- Header with a more modern nav bar -->
     <header>
         <nav>
-            <ul>
-                <li><a asp-controller="Home" asp-action="Index">Home</a></li>
-                <li><a asp-controller="Home" asp-action="Upload">Upload</a></li>
-                <li><a asp-controller="Home" asp-action="CreateCustomerProfile">Create Customer Profile In Database</a></li>
-                <li><a asp-controller="Home" asp-action="ListCustomerProfiles">List Customer Profiles</a></li>
-                <!-- <li><a asp-controller="Home" asp-action="ListCustomerProfiles">Submitting Customer Profile To Database</a> </li>-->
-                <li><a asp-controller="Home" asp-action="ListFiles">List Files</a></li>
-                <li><a asp-controller="Home" asp-action="ListImages">List Images</a></li>
-            </ul>
+            <div class="navbar">
+                <div class="navbar-brand">
+                    <a href="@Url.Action("Index", "Home")" class="logo btn">ABC Retail</a>
+                </div>
+                <ul class="navbar-links">
+                    <li><a asp-controller="Home" asp-action="Index" class="btn">Home</a></li>
+                    <li><a asp-controller="Home" asp-action="Upload" class="btn">Upload</a></li>
+                    <li><a asp-controller="Home" asp-action="CreateCustomerProfile" class="btn">Create Customer Profile In Database</a></li>
+                    <li><a asp-controller="Home" asp-action="ListCustomerProfiles" class="btn">List Customer Profiles</a></li>
+                    <li><a asp-controller="Home" asp-action="ListFiles" class="btn">List Files</a></li>
+                    <li><a asp-controller="Home" asp-action="ListImages" class="btn">List Images</a></li>
+                </ul>
+            </div>
         </nav>
     </header>
+    
+    <!-- Main content section -->
     <main role="main" class="container">
         @RenderBody()
     </main>
-    <footer>
-        <p>&copy; 2024 - ABC Retail</p>
+
+    <!-- Footer with a cleaner design -->
+    <footer class="footer">
+        <div class="footer-content">
+            <p>&copy; 2024 - ABC Retail</p>
+            <div class="footer-links">
+                <a href="#">Privacy Policy</a> | <a href="#">Terms of Service</a>
+            </div>
+        </div>
     </footer>
 
     <!-- Render scripts section -->
     @RenderSection("Scripts", required: false)
+
+    <!-- Optional: Add any script libraries or custom JS -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
 </body>
 </html>

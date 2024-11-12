@@ -2,5 +2,77 @@
     ViewData["Title"] = "Home Page";
 }
 
-<h2>Home Page</h2>
-<p>Welcome to ABC Retail!</p>
+<h2>Welcome to ABC Retail!</h2>
+
+<p>We're excited to have you here! To get started, please choose one of the options below:</p>
+
+<div class="start-options">
+    <a href="@Url.Action("Upload", "Home")" class="btn btn-primary">Upload Your Products</a>
+    <a href="@Url.Action("CreateCustomerProfile", "Home")" class="btn btn-secondary">Create Customer Profile In Database</a>
+    <a href="@Url.Action("ListCustomerProfiles", "Home")" class="btn btn-tertiary">View Customer Profiles</a>
+    <a href="@Url.Action("ListFiles", "Home")" class="btn btn-quaternary">List Files</a>
+    <a href="@Url.Action("ListImages", "Home")" class="btn btn-quinary">List Images</a>
+</div>
+
+<style>
+    .start-options {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        margin-top: 20px;
+    }
+
+        .start-options .btn {
+            margin: 10px;
+            font-size: 18px;
+            padding: 12px 25px;
+            text-decoration: none;
+            text-align: center;
+            width: 250px;
+        }
+
+    .btn-primary {
+        background-color: #007bff;
+        color: white;
+    }
+
+        .btn-primary:hover {
+            background-color: #0056b3;
+        }
+
+    .btn-secondary {
+        background-color: #28a745;
+        color: white;
+    }
+
+        .btn-secondary:hover {
+            background-color: #218838;
+        }
+
+    .btn-tertiary {
+        background-color: #ffc107;
+        color: black;
+    }
+
+        .btn-tertiary:hover {
+            background-color: #e0a800;
+        }
+
+    .btn-quaternary {
+        background-color: #dc3545;
+        color: white;
+    }
+
+        .btn-quaternary:hover {
+            background-color: #c82333;
+        }
+
+    .btn-quinary {
+        background-color: #17a2b8;
+        color: white;
+    }
+
+        .btn-quinary:hover {
+            background-color: #138496;
+        }
+</style>
