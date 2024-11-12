@@ -34,6 +34,12 @@ public class HomeController : Controller
         return View();
     }
 
+    public IActionResult SubmitToDatabase()
+    {
+        return View();
+    }
+
+
     // Uploads chosen image to Azure Blob Storage and adds a message to the Queue
     [HttpPost]
     public async Task<IActionResult> UploadImage(ImageUploadModel model)
