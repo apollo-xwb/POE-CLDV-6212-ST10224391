@@ -1,22 +1,27 @@
 ﻿@model POE_CLDV_6221_ST10224391.Models.CustomerProfile
 
-<form asp-action="CreateCustomerProfile" method="post">
-    <div>
-        <label asp-for="FirstName"></label>
-        <input asp-for="FirstName" />
-        <span asp-validation-for="FirstName"></span>
+<h2>Create Customer Profile</h2>
+
+<form asp-action="CreateCustomerProfile" method="post" class="customer-form">
+    <div class="form-group">
+        <label asp-for="FirstName" class="form-label">First Name</label>
+        <input asp-for="FirstName" class="form-input" placeholder="Enter your first name" />
+        <span asp-validation-for="FirstName" class="validation-message"></span>
     </div>
-    <div>
-        <label asp-for="LastName"></label>
-        <input asp-for="LastName" />
-        <span asp-validation-for="LastName"></span>
+
+    <div class="form-group">
+        <label asp-for="LastName" class="form-label">Last Name</label>
+        <input asp-for="LastName" class="form-input" placeholder="Enter your last name" />
+        <span asp-validation-for="LastName" class="validation-message"></span>
     </div>
-    <div>
-        <label asp-for="Email"></label>
-        <input asp-for="Email" />
-        <span asp-validation-for="Email"></span>
+
+    <div class="form-group">
+        <label asp-for="Email" class="form-label">Email Address</label>
+        <input asp-for="Email" class="form-input" placeholder="Enter your email" />
+        <span asp-validation-for="Email" class="validation-message"></span>
     </div>
-    <button type="submit">Submit</button>
+
+    <button type="submit" class="btn btn-submit">Submit</button>
 </form>
 
 @section Scripts {
@@ -24,3 +29,67 @@
         await Html.RenderPartialAsync("_ValidationScriptsPartial");
     }
 }
+
+<style>
+    .customer-form {
+        max-width: 500px;
+        margin: 20px auto;
+        padding: 20px;
+        background-color: #f9f9f9;
+        border-radius: 8px;
+        box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    }
+
+    .form-group {
+        margin-bottom: 15px;
+    }
+
+    .form-label {
+        display: block;
+        font-size: 16px;
+        color: #333;
+        margin-bottom: 5px;
+    }
+
+    .form-input {
+        width: 100%;
+        padding: 10px;
+        font-size: 16px;
+        border: 1px solid #ddd;
+        border-radius: 5px;
+        box-sizing: border-box;
+        transition: border-color 0.3s ease;
+    }
+
+        .form-input:focus {
+            border-color: #007bff;
+            outline: none;
+        }
+
+    .validation-message {
+        color: red;
+        font-size: 12px;
+        margin-top: 5px;
+    }
+
+    .btn {
+        padding: 12px 20px;
+        font-size: 16px;
+        color: white;
+        background-color: #007bff;
+        border: none;
+        border-radius: 5px;
+        cursor: pointer;
+        width: 100%;
+        transition: background-color 0.3s ease;
+    }
+
+        .btn:hover {
+            background-color: #0056b3;
+        }
+
+    h2 {
+        text-align: center;
+        margin-bottom: 20px;
+    }
+</style>

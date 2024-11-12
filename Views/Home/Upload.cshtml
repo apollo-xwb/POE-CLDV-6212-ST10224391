@@ -1,17 +1,95 @@
 ﻿@model POE_CLDV_6221_ST10224391.Models.ImageUploadModel
 
-<form asp-action="UploadImage" method="post" enctype="multipart/form-data">
-    <div>
-        <label for="imageFile">Upload Image:</label>
-        <input type="file" name="ImageFile" id="imageFile" />
-    </div>
-    <button type="submit">Upload Image</button>
-</form>
+<h2 class="form-title">Upload Your Files</h2>
 
-<form asp-action="UploadFile" method="post" enctype="multipart/form-data">
-    <div>
-        <label for="file">Upload File:</label>
-        <input type="file" name="File" id="file" />
-    </div>
-    <button type="submit">Upload File</button>
-</form>
+<div class="upload-forms-container">
+
+    <!-- Image Upload Form -->
+    <form asp-action="UploadImage" method="post" enctype="multipart/form-data" class="upload-form">
+        <div class="form-group">
+            <label for="imageFile" class="file-label">Upload Image</label>
+            <input type="file" name="ImageFile" id="imageFile" class="file-input" />
+        </div>
+        <button type="submit" class="btn btn-upload">Upload Image</button>
+    </form>
+
+    <!-- File Upload Form -->
+    <form asp-action="UploadFile" method="post" enctype="multipart/form-data" class="upload-form">
+        <div class="form-group">
+            <label for="file" class="file-label">Upload File</label>
+            <input type="file" name="File" id="file" class="file-input" />
+        </div>
+        <button type="submit" class="btn btn-upload">Upload File</button>
+    </form>
+
+</div>
+
+<style>
+    .form-title {
+        text-align: center;
+        font-size: 28px;
+        margin-bottom: 30px;
+        color: #333;
+    }
+
+    .upload-forms-container {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        gap: 20px;
+        max-width: 500px;
+        margin: 0 auto;
+    }
+
+    .upload-form {
+        width: 100%;
+        padding: 20px;
+        background-color: #f9f9f9;
+        border-radius: 8px;
+        box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+        transition: all 0.3s ease;
+    }
+
+        .upload-form:hover {
+            transform: translateY(-5px);
+            box-shadow: 0 6px 12px rgba(0, 0, 0, 0.15);
+        }
+
+    .form-group {
+        margin-bottom: 20px;
+        display: flex;
+        flex-direction: column;
+        align-items: flex-start;
+    }
+
+    .file-label {
+        font-size: 16px;
+        color: #555;
+        margin-bottom: 8px;
+    }
+
+    .file-input {
+        padding: 10px;
+        border: 2px solid #ddd;
+        border-radius: 5px;
+        font-size: 14px;
+        width: 100%;
+        cursor: pointer;
+    }
+
+    .btn-upload {
+        background-color: #007bff;
+        color: white;
+        padding: 12px 20px;
+        border: none;
+        border-radius: 5px;
+        cursor: pointer;
+        width: 100%;
+        font-size: 16px;
+        transition: background-color 0.3s ease;
+    }
+
+        .btn-upload:hover {
+            background-color: #0056b3;
+        }
+</style>

@@ -1,9 +1,54 @@
 ﻿@model IEnumerable<POE_CLDV_6221_ST10224391.Models.CustomerProfile>
 
-<h2>Customer Profiles</h2>
-<ul>
+<h2 class="page-title">Customer Profiles</h2>
+
+<div class="profiles-list">
     @foreach (var profile in Model)
     {
-        <li>@profile.FirstName @profile.LastName - @profile.Email</li>
+        <div class="profile-card">
+            <h3 class="profile-name">@profile.FirstName @profile.LastName</h3>
+            <p class="profile-email">@profile.Email</p>
+        </div>
     }
-</ul>
+</div>
+
+<style>
+    .page-title {
+        text-align: center;
+        font-size: 24px;
+        margin-bottom: 20px;
+        color: #333;
+    }
+
+    .profiles-list {
+        display: grid;
+        grid-template-columns: repeat(auto-fill, minmax(250px, 1fr));
+        gap: 20px;
+        padding: 20px;
+    }
+
+    .profile-card {
+        background-color: #fff;
+        border-radius: 8px;
+        box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+        padding: 15px;
+        transition: transform 0.3s ease, box-shadow 0.3s ease;
+    }
+
+        .profile-card:hover {
+            transform: translateY(-5px);
+            box-shadow: 0 6px 12px rgba(0, 0, 0, 0.15);
+        }
+
+    .profile-name {
+        font-size: 18px;
+        font-weight: 600;
+        color: #007bff;
+        margin-bottom: 8px;
+    }
+
+    .profile-email {
+        font-size: 16px;
+        color: #555;
+    }
+</style>
